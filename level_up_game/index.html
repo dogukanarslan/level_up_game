@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+    <link rel="stylesheet" href="styles/main.css">
+    <link href="https://fonts.googleapis.com/css?family=Poppins&display=swap" rel="stylesheet">
+  </head>
+  <body>
+
+    <header>
+      <h1>Welcome to the Level Up Game</h1>
+      <p>Press the button to start</p>
+      <button type="button" id="myButton">Start</button>
+    </header>
+
+    <section class="main-content" id="main-content" style="display: none;">
+          <div class="current-status">
+            <p>Your level is:</p>
+            <div id="level">
+              0
+            </div>
+          </div>
+          <div class="buttons">
+            <div class="button" id="level_up">Level Up</div>
+            <div class="button" id="level_down">Level Down</div>
+          </div>
+    </section>
+
+    <footer>
+      <p>Level Up Game, Developed in 2019 &copy</p>
+    </footer>
+  <script src="scripts/action.js"></script>
+  </body>
+</html>

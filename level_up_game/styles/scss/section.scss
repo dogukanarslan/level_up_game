@@ -1,0 +1,41 @@
+.main-content{
+  height: 70vh;
+  display: flex;
+  flex-direction: column;
+  justify-content:center;
+  align-items: center;
+  color: $text-color;
+  .current-status{
+    width: 400px;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: tomato;
+  }
+  .buttons{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+    .button{
+      width: 100px;
+      height: 100px;
+      border-radius: 50%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin: 0 20px;
+      background-color: $bg-color;
+      opacity: .9;
+      &:hover{
+        cursor: pointer;
+        opacity: 1;
+      }
+    }
+  }
+  h1{
+    text-align: center;
+    margin-top: 20px;
+  }
+}

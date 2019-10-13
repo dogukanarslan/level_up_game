@@ -1,0 +1,23 @@
+header{
+  background-color: $bg-color;
+  text-align: center;
+  color: $text-color;
+  height: 20vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  button{
+    background-color: tomato;
+    color: $text-color;
+    border: none;
+    border-radius: 10px;
+    padding: 10px 40px;
+    margin: 20px;
+    &:hover{
+      background-color: #fff;
+      color: #000;
+      cursor: pointer;
+    }
+  }
+}

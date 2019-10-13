@@ -1,0 +1,13 @@
+header {
+  background-color: gray;
+  text-align: center;
+  color: #fff; }
+  header button {
+    background-color: black;
+    color: #fff;
+    border: none;
+    border-radius: 10px;
+    padding: 10px 40px;
+    margin: 20px; }
+    header button:hover {
+      background-color: #224466; }
